@@ -1,4 +1,4 @@
-import pegjs from 'pegjs';
+import peggy from 'peggy';
 import loaderUtils from 'loader-utils';
 
 function extractAllowedStartRules(query) {
@@ -36,6 +36,6 @@ export default function loader(source) {
     pegOptions.allowedStartRules = allowedStartRules;
   }
 
-  const methodName = (typeof pegjs.generate === 'function') ? 'generate' : 'buildParser';
-  return pegjs[methodName](source, pegOptions);
+  const methodName = (typeof peggy.generate === 'function') ? 'generate' : 'buildParser';
+  return peggy[methodName](source, pegOptions);
 }
