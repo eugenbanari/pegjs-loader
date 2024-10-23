@@ -25,7 +25,7 @@
     },
     "homepage": "http://eploko.github.io/pegjs-loader",
     "peerDependencies": {
-        "pegjs": "^0.10.0",
+        "peggy": "4.1.1",
         "webpack": ">=1"
     },
     "dependencies": {
@@ -42,7 +42,7 @@
         "eslint-plugin-jsx-a11y": "^6.2.3",
         "eslint-plugin-react": "^7.14.2",
         "lodash": ">=4.17.12",
-        "pegjs": "^0.10.0",
+        "peggy": "4.1.1",
         "rimraf": "^2.3.4",
         "webpack": "1.12.2"
     },
