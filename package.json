@@ -9,10 +9,6 @@
     "license": "MIT",
     "main": "lib/index.js",
     "jsnext:main": "src/index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/eploko/pegjs-loader"
-    },
     "keywords": [
         "webpack",
         "pegjs",
@@ -20,10 +16,6 @@
         "peg",
         "loader"
     ],
-    "bugs": {
-        "url": "https://github.com/eploko/pegjs-loader/issues"
-    },
-    "homepage": "http://eploko.github.io/pegjs-loader",
     "peerDependencies": {
         "peggy": "4.1.1",
         "webpack": ">=1"
